@@ -16,6 +16,10 @@
 
 #pragma once
 
+#define TAPPING_TERM 200
+#define IGNORE_MOD_TAP_INTERRUPT
+#define DOUBLE_TAP_SHIFT_TURNS_ON_CAPS_WORD
+
 #ifdef RGB_MATRIX_ENABLE
 /* RGB Matrix driver configuration */
 #    define DRIVER_COUNT 2
